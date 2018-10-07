@@ -1,45 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-
-		<title>GGG</title>
-		<H1 style="color:red"><big>This</big> <small>is</small> <i>a website!</i></H1>
+     <meta charset="UTF-8">
+		 <title>Semantic Elements</title>
 
 	</head>
 
 	<body style="background-color:lightblue">
+
+		<nav>
+			<a href="https://www.e3expo.com/" target="_blank">E<sup>3</sup></a> |
+			<a href="https://www.water.com/" target="_blank">H<sub>2</sub>O</a>
+		</nav>
+
 		<header>
-			<nav></nav>
+      <h1 style="text-align:center;font-family:sans-serif"><strong><i>First HTML Assignment</i></strong></h1>
 		</header>
 
 		<main>
 			<article>
-
 				<section>
-					<h1><a href="page2.html" target="_blank">H<sub>2</sub>O</a></h1>
 
-					<h1>H<sup>2</sup>O</h1>
+					<h2 style="font-family:sans-serif"><u>Semantic Elements</u></h2>
+					<p><h3 style="font-family:courier"><wbr>  &nbsp; Semantic Elements, in the context of HTML, are words or phrases in the code with meaning.
+						 They can be understood by both the developer and the browser. Semantic markup is HTML that introduces
+						 meaning to the web page rather than just presentation. For example, a <code>p</code> tag indicates that the enclosed
+						 text is a paragraph. This is both semantic and representational, because people know what paragraphs are
+						 and browsers know how to display them.	</h3>
+					<h3 style="font-family:courier">Other examples of semantic elements include:</h3>
+					<ul>
+						<li><code>li</code></li>
+						<li><code>form</code></li>
+						<li><code>table</code></li>
+					</ul>
+
 				</section>
-
-
-				<section>
-					<aside>
-					<H2 style="color:Green">This is a puppy!</H2>
-					<img height="600" src="https://www.trexcafe.com/images/cover/cover_trex.png" alt="Trex!!">
-					</aside>
-				</section>
-
 			</article>
-		</main>
+</main>
 
-		<footer>
+<article style="text-align:center"><h3 style="font-family:courier">These are Joe and Jane, <br />the pet dinos!</h3></article>
 
-		</footer>
+					<figure><img style="float:left" height="500" src="https://www.trexcafe.com/images/cover/cover_trex.png" alt="Trex1!!">
+					<img style="float:right" height="500" src="http://www.pngall.com/wp-content/uploads/2016/06/Dinosaur-PNG-File.png" alt="Trex2!!">
+				  </figure>
 
-
-	<!--This is a coment-->
+					<footer>
+						<!--I was not able to place this footer under the images instead of in-between -->
+						 <small>&copy; Copyright 2058, GGG limited</small>
+					</footer>
 
 	</body>
-
 
 </html>
